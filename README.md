@@ -1,68 +1,43 @@
-![Meteora](thumbnail.png)
 
-# Meteora - E-commerce de Moda
+## Meteora ! 
 
-O Meteora é um projeto de e-commerce em fase de desenvolvimento inicial. Este README fornece informações sobre o projeto, suas funcionalidades e como executá-lo em seu ambiente local.
+![Captura de tela 2024-05-28 165335](https://github.com/laychan25/3494-react-context-api-projeto-base/assets/123597109/627f3064-622a-4ea3-9c78-5c08d5efb355)
 
-![GIF da aplicação em execução](meteora-app.gif)
+Nesta vez trazemos o projeto meteora que ja havia desenvolvido uma outra versao dele mais simples utilizando apenas o bootstrap 5, mas agora ele esta de cara nova com um codigo limpo em React e utilizando as mais novas features.
 
-## 🔨 Funcionalidades do projeto
+# Os Desafios 
 
-Neste estágio inicial de desenvolvimento, o Meteora possui as seguintes funcionalidades:
+Neste curso ( React: gerencie estados globalmente com Context API ) o principal foco era em arrumar os prop drilling, que sao quando um componente usa muitas propriedades e essas propriedades sao passadas "muito fundo" entrando cada vez mais em pastas mais longes da onde foram iniciadas.
+Isso alem da dor de cabeça que gera para organizar, e as vezes passar props que nao sao usadas para outros componentes apenas para fazer o caminho entre elas  ( eu mesma fico com confusa com tantas props ) tambem e pessimo em desempenho.
 
-- Adicionar itens ao carrinho
-- Remover itens do carrinho
-- Visualizar a página do carrinho
-- Deletar itens do carrinho
+![maxwell-maxwell-cat](https://github.com/laychan25/3494-react-context-api-projeto-base/assets/123597109/e7f3c57c-7b1a-4318-8b70-42b736d83484)
 
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/R5ATrWK1nC44Eyeo6XZXlr/Meteora---Context-API?node-id=2386%3A2430&mode=dev).
+## Apresento o Context ! te amo context 
 
-## ✔️ Técnicas e tecnologias utilizadas
+Com o context podemos pegar todo o contexto que no nosso caso e o carrinho de compras, a quantidade e o valor e colocalos em um contexto como o nome ja diz que faz ele serem usados em toda a aplicaçao 
 
-O projeto Meteora utiliza as seguintes tecnologias e bibliotecas:
+## Hooks 
 
-- `React` - Framework JavaScript
-- `Vite` - Build tool para desenvolvimento rápido
-- `JavaScript` - Linguagem de programação principal
-- `Context API` - Para gerenciamento de estado
-- `useReducer` - Para controle de estado
-- `useMemo` - Para otimização de desempenho
-- `Bootstrap` - Framework de design e componentes
+Tambem usamos os hooks para juntar as funcoes que usamos em muitas partes do codigo em um so lugar e agora e so chamar elas ! Isso economizou muito tempo e faz com que nao temos que repetir funcoes que fazem a mesma coisa 
 
-## 🛠️ Abrir e rodar o projeto
 
-Para executar o projeto Meteora em seu ambiente local, siga estas etapas:
+## Todas a novas funcionalidades 
 
-1. Certifique-se de ter o Node.js instalado em sua máquina.
 
-2. Baixe o repositório do projeto:
+![Captura de tela 2024-05-28 171755](https://github.com/laychan25/3494-react-context-api-projeto-base/assets/123597109/26de2233-059b-4368-9c4e-c6fa1d2a5ce4)
 
-3. Extraia os arquivos para uma pasta de sua preferência.
+* adicionar itens no carrinho
+* remover item
+* adicionar ou remover quantidade
+* total do carrinho
+  
+![Captura de tela 2024-05-28 172045](https://github.com/laychan25/3494-react-context-api-projeto-base/assets/123597109/fb839884-0382-4430-a3c9-72fba397deb3)
 
-4. Navegue até a pasta em questão via terminal (cmd):
+* pagina de finalizacao da compra
 
-```bash
-cd repo-meteora
-```
+Bom e isso ! 
 
-5. Instale as dependências usando o npm:
+  ![cat-kiss-kissing-cat](https://github.com/laychan25/3494-react-context-api-projeto-base/assets/123597109/ee9ec00b-01f2-407e-aa97-6a65faf58aa7)
 
-```bash
-npm install
-```
+  
 
-6. Inicie o projeto localmente:
-
-```bash
-npm run dev
-```
-
-7. Abra seu navegador e acesse a url exibida no seu terminal para visualizar o projeto.
-
-## 📚 Mais informações do projeto
-
-O Meteora é um e-commerce fictício de moda em constante desenvolvimento. Este projeto visa aprimorar as habilidades em React, e apresentar a Context API como uma solução para gerenciamento de estados globais de uma aplicação React.
-
-O design e protótipo deste projeto podem ser encontrados [aqui](https://www.figma.com/file/R5ATrWK1nC44Eyeo6XZXlr/Meteora---Context-API?node-id=2386%3A2430&mode=dev).
-
-Aproveite o desenvolvimento e aprimoramento do Meteora!
